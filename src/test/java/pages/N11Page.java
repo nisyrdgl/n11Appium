@@ -27,4 +27,10 @@ public class N11Page {
     public MobileElement basketAdd;
     @AndroidFindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Sepetim, 1 new notification\"]/android.widget.ImageView")
     public MobileElement cart;
+    @AndroidFindBy(id = "com.dmall.mfandroid:id/firstItemView")
+    public MobileElement deleteProduct;
+    @AndroidFindBy(id = "com.dmall.mfandroid:id/deleteTv")
+    public MobileElement deleteButton;
+    @AndroidFindBy(id = "com.dmall.mfandroid:id/emptyBasketTitleTv")
+    public MobileElement emptyBasket;
 }

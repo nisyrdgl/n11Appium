@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09e9a689-d632-4aac-ad81-b7561dbfa204" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/Amazon Shopping_24.22.0.100_Apkpure.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/n11_14.5.0_Apkpure.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/N11Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/N11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/N11Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/N11Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/N11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/N11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +63,17 @@
       <recent name="C:\Users\Administrator\IdeaProjects\amazonAppium\src\test\java" />
       <recent name="C:\Users\Administrator\IdeaProjects\amazonAppium" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\n11Appium\src\test" />
+      <recent name="C:\Users\Administrator\IdeaProjects\n11Appium\src\resources" />
+      <recent name="C:\Users\Administrator\IdeaProjects\n11Appium" />
+      <recent name="C:\Users\Administrator\IdeaProjects\n11Appium\src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.N11.test01">
+  <component name="RunManager" selected="TestNG.N11.test01 (1)">
     <configuration name="Amazon.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="amazonAppium" />
       <extension name="coverage">
@@ -106,6 +106,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N11" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="n11Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.N11" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N11.test01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="n11Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.N11" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="N11.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="amazonAppium" />
       <extension name="coverage">
@@ -126,6 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.N11.test01 (1)" />
+        <item itemvalue="TestNG.N11" />
         <item itemvalue="TestNG.N11.test01" />
         <item itemvalue="JUnit.N11.test01" />
         <item itemvalue="JUnit.Amazon.test01" />
